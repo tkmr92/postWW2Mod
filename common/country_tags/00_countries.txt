@@ -1,0 +1,7 @@
+FDR = "countries/West Germany.txt"
+GDR = "countries/East Germany.txt"
+UKB = "countries/United Kingdom.txt"
+SWE = "countries/Sweden.txt"
+FRA = "countries/France.txt"
+LUX = "countries/Luxemburg.txt"
+BEL = "countries/Belgium.txt"
