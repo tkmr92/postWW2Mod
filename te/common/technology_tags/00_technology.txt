@@ -82,9 +82,19 @@ technology_categories = {
 }
 
 technology_folders = {
-	infantry_folder
+	infantry_folder = {
+		avilable = {
+			NOT = { original_tag = USA }
+			NOT = { original_tag = RUS }
+		}
+	}
 	support_folder
-	armour_folder
+	armour_folder = {
+		avilable = {
+			NOT = { original_tag = USA }
+			NOT = { original_tag = RUS }
+		}
+	}
 	artillery_folder
 	air_techs_folder
 	naval_folder
