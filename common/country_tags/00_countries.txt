@@ -1,3 +1,4 @@
+# Soverign Nations as of 1945 #
 AFG = "countries/Afghanistan.txt"
 ALB = "countries/Albania.txt"
 AND = "countries/Andorra.txt"
@@ -67,4 +68,4 @@ UKB = "countries/United Kingdom.txt"
 USA = "countries/United States.txt"
 URU = "countries/Uraguay.txt"
 VEN = "countries/Venezuala.txt"
-YEM = "countries/Yemen.txt"
+YEM = "countries/Yemen.txt" 
