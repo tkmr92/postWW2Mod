@@ -6,5 +6,15 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
+
+		"USA"={
+			history = "USA_COLD_WAR_DESC"
+			ideology = democratic
+		}
+
+		"SOV"={
+			history = "SOV_COLD_WAR_DESC"
+			ideology = communism
+		}
 	}
 }
