@@ -1,0 +1,10 @@
+bookmarks = {
+	bookmark = {
+		name = "COLD_WAR_NAME"
+		desc = "COLD_WAR_DESC"
+		date = 1945.9.2.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+	}
+}
