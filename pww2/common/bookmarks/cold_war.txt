@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "COLD_WAR_DESC"
 		date = 1945.9.2.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "USA"
 		default = yes
 
 		"USA"={
@@ -15,6 +15,10 @@ bookmarks = {
 		"SOV"={
 			history = "SOV_COLD_WAR_DESC"
 			ideology = communism
+		}
+
+		"---"={
+			history = "OTHER_COLD_WAR_DESC"
 		}
 	}
 }
