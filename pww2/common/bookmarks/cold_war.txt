@@ -17,6 +17,16 @@ bookmarks = {
 			ideology = communism
 		}
 
+		"WGR"={
+			history = "WGR_COLD_WAR_DESC"
+			idealogy = democratic
+		}
+
+		"DDR"={
+			history = "DDR_COLD_WAR_DESC"
+			ideology = communism
+		}
+
 		"---"={
 			history = "OTHER_COLD_WAR_DESC"
 		}
