@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_ww2_weapons"
+		texturefile = "gfx/interface/technologies/infantry3.dds"
+	}
+}

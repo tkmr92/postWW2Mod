@@ -1,0 +1,93 @@
+technologies = {
+	
+	@1945 = 0
+	@tech_one = 5
+	@tech_two = 10
+	@tech_three = 15
+	@tech_four = 20
+
+	ww2_weapons = {
+
+		enable_equipments = {
+			ww2_weapons
+		}
+
+		enable_subunits = {
+			infantry
+		}
+
+		path = {
+			leads_to_tech = m14_battle_rifle
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1945
+		folder = {
+			name = usa_infantry_folder
+			position = { x = 0 y = -1}
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	m14_battle_rifle = {
+
+		enable_equipments = {
+			m14_battle_rifle
+		}
+
+		path = {
+			leads_to_tech = m16_assault_rifle
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1957
+		folder = {
+			name = usa_infantry_folder
+			position = { x = 0 y = @tech_one }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	m16_assault_rifle = {
+
+		enable_equipments = {
+			m16_assault_rifle
+		}
+
+
+		path = {
+			leads_to_tech = m16a1_battle_rifle
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1964
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @tech_two}
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}

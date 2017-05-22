@@ -1,6 +1,6 @@
 technologies = {
 	ww2tank = { # M26 Pershing
-		enable_equipment = {
+		enable_equipments = {
 			ww2_tank_equipment
 		}
 	}
